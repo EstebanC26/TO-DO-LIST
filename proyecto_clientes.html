@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="proyecto_clientes.css">
+</head>
+<body>
+<div class= ".mid">
+        <h1>TO-DO LIST</h1>
+        <input type="text" id="taskInput" placeholder="Nueva tarea">
+        <button id="addTaskButton" onclick="addTask()">Agregar Tarea</button>
+    </div>
+    
+    <div class="task-container">
+        <div class="task-section">
+            <h2>Tareas Pendientes</h2>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="task-section">
+            <h2>Tareas Completadas</h2>
+            <ul id="completedList"></ul>
+        </div>
+    </div>
+
+    <script src="proyecto_clientes.js"></script>
+</body>
+</html>
